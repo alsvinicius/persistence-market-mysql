@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../js/knockout-3.5.1.js"></script>
+    <script src="../js/endereco.vm.js"></script>
+</head>
+
+<body>
+    <h2>
+        Adicionar Endereço
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" data-bind="click: list">
+          <i class="material-icons">list</i>
+        </button>
+    </h2>
+    <form action="#" class="mdl-layout mdl-js-layout">
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="logradouro" data-bind="value: logradouro">
+            <label for="logradouro">Logradouro</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="numero" data-bind="value: numero">
+            <label for="numero">Número</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="complemento" data-bind="value: complemento">
+            <label for="complemento">Complemento</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="cidade" data-bind="value: cidade">
+            <label for="cidade">Cidade</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="uf" data-bind="value: uf">
+            <label for="uf">UF</label>
+        </div>
+        <div class="mdl-select">
+            <label for="cliente">Cliente</label>
+            <select id="cliente" data-bind="options: clientes,
+                optionsText: 'nome',
+                optionsValue: 'idCliente',
+                value: idCliente,
+                optionsCaption: 'Selecione um cliente...'"></select>
+        </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" data-bind="click: salvar">
+            Salvar
+        </button>
+        <div class="msg-salvo" data-bind="visible: enderecoSalvo">Endereço salvo com sucesso!</div>
+    </form>
+</body>
+
+<script>
+    let enderecoVm = new EnderecoViewModel()
+    ko.applyBindings(enderecoVm)
+</script>
+<script src="../js/main.js"></script>
+
+</html>

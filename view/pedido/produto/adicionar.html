@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../../js/knockout-3.5.1.js"></script>
+    <script src="../../js/pedidoProduto.vm.js"></script>
+</head>
+
+<body>
+    <h2>
+        Adicionar Produto
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" data-bind="click: list">
+          <i class="material-icons">list</i>
+        </button>
+    </h2>
+    <form action="#" class="mdl-layout mdl-js-layout">
+            <div class="mdl-select">
+                <label for="produto">Produto</label>
+                <select id="produto" data-bind="options: produtos,
+                    optionsText: 'nome',
+                    optionsValue: 'idProduto',
+                    value: idProduto,
+                    optionsCaption: 'Selecione um produto...'"></select>
+            </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" data-bind="click: salvar">
+            Salvar
+        </button>
+        <div class="msg-salvo" data-bind="visible: produtoSalvo">Produto salvo com sucesso!</div>
+    </form>
+</body>
+
+<script>
+    let pedidoProduto = new PedidoProdutoViewModel()
+    ko.applyBindings(pedidoProduto)
+    pedidoProduto.loadProdutos()
+</script>
+<script src="../../js/main.js"></script>
+
+</html>
