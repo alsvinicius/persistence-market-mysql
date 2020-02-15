@@ -1,3 +1,0 @@
-
-»%squid:RedundantThrowsDeclarationCheck"‚Remove the declaration of thrown exception 'org.springframework.web.client.HttpClientErrorException' which is a runtime exception.(ó“Íç8»øòÅö-
-^squid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ñÇºµ8ÖˆšÅö-

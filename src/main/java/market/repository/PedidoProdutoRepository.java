@@ -1,18 +1,21 @@
 package market.repository;
 
 import market.model.PedidoProduto;
-import org.bson.types.ObjectId;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.Query;
+import market.model.Produto;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface PedidoProdutoRepository extends MongoRepository<PedidoProduto, String> {
+@Repository
+public interface PedidoProdutoRepository extends JpaRepository<PedidoProduto, String> {
 
-    @Query("{'idPedido': ?0}")
-    List<PedidoProduto> findByPedido(ObjectId idPedido);
+    @Query("SELECT p from PedidoProduto pp, Produto p WHERE pp.idPedido = :idPedido AND pp.idProduto = p.idProduto")
+    List<Produto> findByPedido(@Param("idPedido") String idPedido);
 
-    @Query("{'idPedido': ?0, 'idProduto': ?1}")
-    List<PedidoProduto> findByPedidoProduto(ObjectId idPedido, ObjectId idProduto);
+    @Query("SELECT pp from PedidoProduto pp WHERE idPedido = :idPedido AND idProduto = :idProduto")
+    List<PedidoProduto> findByPedidoProduto(@Param("idPedido") String idPedido, @Param("idProduto") String idProduto);
 
 }

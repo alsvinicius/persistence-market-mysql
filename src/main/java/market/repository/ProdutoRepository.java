@@ -1,9 +1,10 @@
 package market.repository;
 
 import market.model.Produto;
-import org.bson.types.ObjectId;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ProdutoRepository extends MongoRepository<Produto, String> {
+@Repository
+public interface ProdutoRepository extends JpaRepository<Produto, String> {
 
 }

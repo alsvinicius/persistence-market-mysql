@@ -1,15 +1,17 @@
 package market.repository;
 
 import market.model.Endereco;
-import org.bson.types.ObjectId;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.Query;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface EnderecoRepository extends MongoRepository<Endereco, String> {
+@Repository
+public interface EnderecoRepository extends JpaRepository<Endereco, String> {
 
-    @Query("{'idCliente': ?0}")
-    List<Endereco> findByClient(ObjectId idCliente);
+    @Query("SELECT e FROM Endereco e WHERE e.idCliente = :idCliente")
+    List<Endereco> findByClient(@Param("idCliente") String idCliente);
 
 }

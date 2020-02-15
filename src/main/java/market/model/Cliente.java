@@ -1,10 +1,11 @@
 package market.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "clientes")
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Cliente {
 

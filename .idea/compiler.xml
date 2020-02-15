@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="produtos-mongo" />
+        <module name="produtos-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="produtos-mongo" target="1.8" />
+      <module name="produtos-mysql" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="produtos-mongo" options="-parameters" />
+      <module name="produtos-mysql" options="-parameters" />
     </option>
   </component>
 </project>

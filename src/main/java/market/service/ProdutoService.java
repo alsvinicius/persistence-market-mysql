@@ -2,12 +2,12 @@ package market.service;
 
 import market.model.Produto;
 import market.repository.ProdutoRepository;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class ProdutoService {
@@ -16,8 +16,8 @@ public class ProdutoService {
     ProdutoRepository repository;
 
     public Produto inserir(Produto produto) {
-        produto.setIdProduto(new ObjectId().toString());
-        repository.insert(produto);
+        produto.setIdProduto(UUID.randomUUID().toString());
+        repository.save(produto);
         return produto;
     }
 

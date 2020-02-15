@@ -1,8 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38cf94dc-d38d-46c0-8442-7d30f2685235" name="Default Changelist" comment="">
+    <list default="true" id="e5edd62f-5150-4778-883f-7aaf9485e2f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinCodeInsightSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/produtos-mysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/007e472e1ecddffa6920ceb8be7881f07be42e4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12495b57dbd8ce5ae7be83661ad533512e1d6abe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12af06d43879213b19f9fbb930425bcf9f57583a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17540183a0274cf15eadeb06943838946d9dbffd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/2332ee534109e6f0fb1725c8d7574ae433f439c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23bd4ed85d74aa28a7eef2c2772a8197bff7682c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25cd1f9629803d333882ca1be1388a4890f2e2f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4ca9ba64273e21ffe1981a96d92b8f5c5e2232f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53dc6ca27ffa1e0af4aaf1b4e2f26445ba9de172" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57326e7558cb508c0b591ea8858fad5fcbfb7892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e0c9e2d99c3fa95e73980813b5122dd8d783cc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65598bff6a40a2322ce479ba1879235bc2312fa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/747a6095ae5d8544d83c95d3b09a8c2c1ee2b4b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/791fc02079bb3edb1bdb73d85daaf0df09767159" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96ec0f53cc68ec21220be0ba758601006b7adc5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afd65d7fb4cf631c0b07d1003a3b691501d79ecc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1f26c6caff95cef090f107db0ea4ff409c23cff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3350d2fd2f6f097267e1b24bf67df996c558f51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2fee411d3532cde228736c27952cc5a332de1e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d946b75dc9aea868ec1a169c1266f3e4c4b1a2ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ede4709db785379e4578cd9906ecde85c5bec8db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe06910ec58b8759782943489ccc32fd91ae016b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/controller/PedidoProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/controller/PedidoProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/model/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/model/PedidoProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/model/PedidoProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/repository/EnderecoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/repository/EnderecoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/repository/PedidoProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/repository/PedidoProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/repository/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/repository/PedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/repository/ProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/service/EnderecoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/service/EnderecoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/service/PedidoProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/service/PedidoProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/market/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/market/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/META-INF/produtos-mongo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/controller/EnderecoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/controller/PedidoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/controller/ProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/model/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/model/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/model/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/repository/ClienteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/repository/EnderecoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/repository/PedidoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/repository/ProdutoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/service/ClienteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/service/EnderecoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/service/PedidoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/produtos-mongo-1.0-SNAPSHOT/WEB-INF/classes/market/service/ProdutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/js/pedidoProduto.vm.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/pedidoProduto.vm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,20 +118,8 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -34,42 +128,25 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Vl4MaLnQ2JtZTIO4CAb8OYlC4O" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1XqcaHsKmMi9YPLQajrBkFn1qcr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="market.controller" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="exec" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="market.Application" />
-      <module name="produtos-mongo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="market.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="produtos-mysql" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Application" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -88,104 +165,66 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="38cf94dc-d38d-46c0-8442-7d30f2685235" name="Default Changelist" comment="" />
-      <created>1576712608169</created>
+      <changelist id="e5edd62f-5150-4778-883f-7aaf9485e2f8" name="Default Changelist" comment="" />
+      <created>1581777126112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576712608169</updated>
+      <updated>1581777126112</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1581638200196">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581779664545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581638200196" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581775349931">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581779664545" />
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581779662360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581775349931">
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1581779662360" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581792925000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581775349931">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581792925000" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581792925000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581775349931">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581792925000" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581792925000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581775349931">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581792925000" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581792925000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581775349931">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581792925000" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581792924913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581775349931">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581792924913" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581792924913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581775349931">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581792924913" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581792924913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581775349931" />
-    <state width="776" height="420" key="XDebugger.FullValuePopup" timestamp="1581638066138">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581792924913" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581792924913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="776" height="420" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1581638066138" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577814895179">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581792924913" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1581779368812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577814895179" />
-    <state x="463" y="144" width="738" height="606" key="find.popup" timestamp="1578008612202">
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581779368812" />
+    <state x="462" y="144" width="740" height="606" key="find.popup" timestamp="1581790545848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="144" width="738" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578008612202" />
-    <state x="209" y="34" key="new project wizard" timestamp="1579818628877">
+    <state x="462" y="144" width="740" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581790545848" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1581777490098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579818628877" />
-    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1581638094603">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1581638094603" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1577834136970">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577834136970" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581637721947">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581637721947" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="produtoRepository" language="JAVA" />
-        <watch expression="produto.getIdProduto().toString()" language="JAVA" />
-        <watch expression="listaProdutos.stream().collect(Collectors.groupingBy(Produto::getIdProduto))" language="JAVA" custom="java.util.stream.Collectors,java.util.function.Function" />
-        <watch expression="aggregation.toString()" language="JAVA" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581777490098" />
   </component>
 </project>

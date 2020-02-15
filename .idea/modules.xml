@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/produtos-mongo.iml" filepath="$PROJECT_DIR$/produtos-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/produtos-mysql.iml" filepath="$PROJECT_DIR$/produtos-mysql.iml" />
     </modules>
   </component>
 </project>

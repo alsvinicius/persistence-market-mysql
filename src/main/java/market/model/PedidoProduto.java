@@ -1,18 +1,17 @@
 package market.model;
 
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-@Document(collection = "pedidos_produtos")
+@Entity
 public class PedidoProduto {
 
     @Id
     private String idPedidoProduto;
 
-    private ObjectId idPedido;
+    private String idPedido;
 
-    private ObjectId idProduto;
+    private String idProduto;
 
     public String getIdPedidoProduto() {
         return idPedidoProduto;
@@ -22,19 +21,19 @@ public class PedidoProduto {
         this.idPedidoProduto = idPedidoProduto;
     }
 
-    public ObjectId getIdPedido() {
+    public String getIdPedido() {
         return idPedido;
     }
 
-    public void setIdPedido(ObjectId idPedido) {
+    public void setIdPedido(String idPedido) {
         this.idPedido = idPedido;
     }
 
-    public ObjectId getIdProduto() {
+    public String getIdProduto() {
         return idProduto;
     }
 
-    public void setIdProduto(ObjectId idProduto) {
+    public void setIdProduto(String idProduto) {
         this.idProduto = idProduto;
     }
 }

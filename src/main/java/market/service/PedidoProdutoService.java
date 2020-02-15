@@ -3,27 +3,19 @@ package market.service;
 import market.model.PedidoProduto;
 import market.model.Produto;
 import market.repository.PedidoProdutoRepository;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.aggregation.Aggregation;
-import org.springframework.data.mongodb.core.aggregation.AggregationResults;
-import org.springframework.data.mongodb.core.aggregation.LookupOperation;
-import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class PedidoProdutoService {
 
     @Autowired
     PedidoProdutoRepository repository;
-
-    @Autowired
-    MongoTemplate mongoTemplate;
 
     @Autowired
     ProdutoService produtoService;
@@ -44,49 +36,31 @@ public class PedidoProdutoService {
             }
         }
 
-        pedidoProduto.setIdPedido(new ObjectId(idPedido));
-        pedidoProduto.setIdPedidoProduto(new ObjectId().toString());
-        repository.insert(pedidoProduto);
+        pedidoProduto.setIdPedido(idPedido);
+        pedidoProduto.setIdPedidoProduto(UUID.randomUUID().toString());
+        repository.save(pedidoProduto);
         pedidoService.adicionarValorProduto(idPedido, produto.getValor());
         return pedidoProduto;
     }
 
-    public void excluir(String idPedido, String idProduto) {
-        List<PedidoProduto> produtosPedido = repository.findByPedidoProduto(new ObjectId(idPedido), new ObjectId(idProduto));
-        if(produtosPedido != null) {
+    public void excluir(String idPedido, String idProduto) throws HttpClientErrorException {
+        List<PedidoProduto> produtosPedido = repository.findByPedidoProduto(idPedido, idProduto);
+        if(produtosPedido != null & produtosPedido.size() > 0) {
             PedidoProduto pedidoProduto = produtosPedido.get(0);
             Produto produto = produtoService.obter(idProduto);
             repository.delete(pedidoProduto);
             pedidoService.removerValorProduto(idPedido, produto.getValor());
             produto.setQuantidade(produto.getQuantidade() + 1);
             produtoService.alterar(idProduto, produto);
+        } else {
+            throw new HttpClientErrorException(HttpStatus.BAD_REQUEST, "Produto não existente no pedido");
         }
     }
 
-    public List<PedidoProduto> listar(String idPedido) {
-        List<PedidoProduto> listaPedidoProduto = repository.findByPedido(new ObjectId(idPedido));
+    public List<Produto> listar(String idPedido) {
+        List<Produto> produtos = repository.findByPedido(idPedido);
 
-        LookupOperation lookupOperation = LookupOperation
-                .newLookup()
-                .from("produtos")
-                .localField("idProduto")
-                .foreignField("_id")
-                .as("produtos");
-
-        Aggregation aggregation = Aggregation.newAggregation(
-                Aggregation.match(Criteria.where("idPedido").is(new ObjectId(idPedido))),
-                lookupOperation
-        );
-
-        AggregationResults<Produto> produtos = mongoTemplate.aggregate(
-                aggregation,
-                "produtos",
-                Produto.class
-        );
-
-        List<Produto> listaProdutos = produtos.getMappedResults();
-
-        return listaPedidoProduto;
+        return produtos;
     }
 
 }

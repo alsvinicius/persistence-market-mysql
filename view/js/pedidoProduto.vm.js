@@ -13,7 +13,7 @@ function PedidoProdutoViewModel() {
     this.salvar = function() {
         $.ajax({
             method: "POST",
-            url: "http://localhost:8080/clientes/" + self.idCliente() + "/pedidos/" + self.idPedido() + "/produtos/" + self.idProduto(),
+            url: "http://localhost:8080/clientes/" + self.idCliente() + "/pedidos/" + self.idPedido() + "/produtos/",
             crossDomain: true,
             contentType: "application/json",
             dataType: "json",
@@ -27,11 +27,11 @@ function PedidoProdutoViewModel() {
     this.loadProdutosPedido = function() {
         $.ajax({
             method: "GET",
-            url: "http://localhost:8080/clientes/" + self.idCliente() + "/pedidos/" + self.idPedido(),
+            url: "http://localhost:8080/clientes/" + self.idCliente() + "/pedidos/" + self.idPedido() + "/produtos",
             crossDomain: true,
             dataType: "json",
             success: function(data) {
-                self.produtosPedido(data["produtos"]);
+                self.produtosPedido(data);
             }
         })
     }
@@ -49,7 +49,7 @@ function PedidoProdutoViewModel() {
     }
 
     this.add = function() {
-        window.location.href="adicionar.html";
+        window.location.href="adicionar.html#" + self.idPedido() + "," + self.idCliente();
     }
 
     this.list = function() {

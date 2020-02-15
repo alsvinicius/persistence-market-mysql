@@ -1,6 +1,7 @@
 package market.controller;
 
 import market.model.PedidoProduto;
+import market.model.Produto;
 import market.service.PedidoProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -38,7 +39,7 @@ public class PedidoProdutoController {
 
     @GetMapping
     @ResponseBody
-    public List<PedidoProduto> listar(
+    public List<Produto> listar(
             @PathVariable("id_pedido") String idPedido
     ) {
         return service.listar(idPedido);

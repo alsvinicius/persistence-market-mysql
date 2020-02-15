@@ -1,16 +1,15 @@
 package market.model;
 
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-@Document(collection = "enderecos")
+@Entity
 public class Endereco {
 
     @Id
     private String idEndereco;
 
-    private ObjectId idCliente;
+    private String idCliente;
 
     private String logradouro;
 
@@ -30,11 +29,11 @@ public class Endereco {
         this.idEndereco = idEndereco;
     }
 
-    public ObjectId getIdCliente() {
+    public String getIdCliente() {
         return idCliente;
     }
 
-    public void setIdCliente(ObjectId idCliente) {
+    public void setIdCliente(String idCliente) {
         this.idCliente = idCliente;
     }
 

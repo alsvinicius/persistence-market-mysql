@@ -45,15 +45,6 @@ public class PedidoController {
         return service.consultar(id);
     }
 
-    @PostMapping("/{id}/produtos/{idProduto}")
-    @ResponseBody
-    public Pedido adicionarProduto(
-            @PathVariable String id,
-            @PathVariable String idProduto
-    ) {
-        return service.adicionarProduto(id, idProduto);
-    }
-
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void excluir(

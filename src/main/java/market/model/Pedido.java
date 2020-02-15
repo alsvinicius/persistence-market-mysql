@@ -1,12 +1,9 @@
 package market.model;
 
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-import java.util.List;
-
-@Document(collection = "pedidos")
+@Entity
 public class Pedido {
 
     @Id
@@ -14,11 +11,9 @@ public class Pedido {
 
     private String data;
 
-    private ObjectId idCliente;
+    private String idCliente;
 
     private double valor;
-
-    private List<Produto> produtos;
 
     public String getIdPedido() {
         return idPedido;
@@ -36,11 +31,11 @@ public class Pedido {
         this.data = data;
     }
 
-    public ObjectId getIdCliente() {
+    public String getIdCliente() {
         return idCliente;
     }
 
-    public void setIdCliente(ObjectId idCliente) {
+    public void setIdCliente(String idCliente) {
         this.idCliente = idCliente;
     }
 
@@ -50,13 +45,5 @@ public class Pedido {
 
     public void setValor(double valor) {
         this.valor = valor;
-    }
-
-    public List<Produto> getProdutos() {
-        return produtos;
-    }
-
-    public void setProdutos(List<Produto> produtos) {
-        this.produtos = produtos;
     }
 }
